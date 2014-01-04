@@ -1,3 +1,18 @@
+///the hello world/hello olin exercise
+
+// var express = require('express');
+// var app = express();
+
+// app.get('/', function(req, res){
+//   res.send('hello world');
+// });
+
+// app.get('/olin', function(req, res){
+//   res.send('hello olin');
+// });
+
+// app.listen(3000);
+
 
 /**
  * Module dependencies.
@@ -38,9 +53,5 @@ app.get('/users/new', user.create);
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
-
-
-
-
 
 
